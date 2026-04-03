@@ -1271,3 +1271,175 @@ footer {
   grid-template-columns: repeat(4, 1fr) !important;
 }
 
+
+/* Who We Are Section */
+.who-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 80px;
+  align-items: center;
+}
+
+.who-image-wrap {
+  position: relative;
+}
+
+.who-badge {
+  position: absolute;
+  bottom: -32px;
+  right: 32px;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background: var(--gold);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: var(--shadow-lg);
+  border: 6px solid var(--cream);
+}
+
+@media (max-width: 768px) {
+  .who-grid {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+  
+  .who-image-wrap {
+    order: -1;
+  }
+  
+  .who-badge {
+    bottom: -16px;
+    right: 16px;
+    width: 90px;
+    height: 90px;
+  }
+}
+
+/* Mission/Vision/Foundation Grid */
+.mv-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2px;
+  background: rgba(184,149,58,0.15);
+}
+
+@media (max-width: 1024px) {
+  .mv-grid {
+    grid-template-columns: 1fr;
+    gap: 2px;
+  }
+}
+
+/* Five Pillars Section */
+.pillars-grid-top {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32px;
+  margin-bottom: 32px;
+}
+
+.pillars-grid-bottom {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 32px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.pillar-card {
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.pillar-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-md);
+}
+
+@media (max-width: 1024px) {
+  .pillars-grid-top {
+    grid-template-columns: 1fr;
+  }
+  
+  .pillars-grid-bottom {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* SixProgrammes Section Responsive */
+@media (max-width: 1024px) {
+  .six-programmes-grid {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .six-programmes-grid {
+    grid-template-columns: 1fr !important;
+  }
+}
+
+/* FlagshipProject Section Responsive */
+@media (max-width: 1024px) {
+  .flagship-grid {
+    grid-template-columns: 1fr !important;
+    gap: 40px !important;
+  }
+}
+
+/* EnvironmentalStewardship Section Responsive */
+@media (max-width: 1024px) {
+  .environmental-grid {
+    grid-template-columns: 1fr !important;
+    gap: 40px !important;
+  }
+  
+  .environmental-stats-grid {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+}
+
+@media (max-width: 640px) {
+  .environmental-stats-grid {
+    grid-template-columns: 1fr !important;
+  }
+}
+
+/* TheoryOfChange Section Responsive */
+@media (max-width: 1024px) {
+  .theory-stages {
+    flex-direction: column !important;
+  }
+  
+  .theory-arrow {
+    transform: rotate(90deg);
+    margin: 10px 0;
+  }
+}
+
+/* NewsInsights Section Responsive */
+@media (max-width: 1024px) {
+  .news-grid {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+  
+  .news-header {
+    flex-direction: column !important;
+    align-items: flex-start !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .news-grid {
+    grid-template-columns: 1fr !important;
+  }
+}
+
+/* GetInvolved Section Responsive */
+@media (max-width: 1024px) {
+  .get-involved-grid {
+    grid-template-columns: 1fr !important;
+  }
+}

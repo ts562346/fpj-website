@@ -5,10 +5,15 @@ import Navigation from './components/Navigation';
 import Hero from './components/Hero';
 import AyahStrip from './components/AyahStrip';
 import ImpactStrip from './components/ImpactStrip';
-import About from './components/About';
-import Vision from './components/Vision';
-import Programmes from './components/Programmes';
-import CallToAction from './components/CallToAction';
+import WhoWeAre from './components/WhoWeAre';
+import WhatWeStandFor from './components/WhatWeStandFor';
+import FivePillars from './components/FivePillars';
+import SixProgrammes from './components/SixProgrammes';
+import FlagshipProject from './components/FlagshipProject';
+import EnvironmentalStewardship from './components/EnvironmentalStewardship';
+import TheoryOfChange from './components/TheoryOfChange';
+import NewsInsights from './components/NewsInsights';
+import GetInvolved from './components/GetInvolved';
 import Newsletter from './components/Newsletter';
 import Footer from './components/Footer';
 import BackToTop from './components/BackToTop';
@@ -42,10 +47,15 @@ function App() {
       <Hero />
       <AyahStrip />
       <ImpactStrip />
-      <About />
-      <Vision />
-      <Programmes />
-      <CallToAction />
+      <WhoWeAre />
+      <WhatWeStandFor />
+      <FivePillars />
+      <SixProgrammes />
+      <FlagshipProject />
+      <EnvironmentalStewardship />
+      <TheoryOfChange />
+      <NewsInsights />
+      <GetInvolved />
       <Newsletter />
       <Footer />
       <BackToTop />
