@@ -75,7 +75,7 @@ const NewsInsights = () => {
 
 const styles = {
   section: {
-    backgroundColor: 'var(--cream)',
+    backgroundColor: 'var(--gold-pale)',
     padding: '100px 0'
   },
   header: {
