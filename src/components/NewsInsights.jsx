@@ -50,7 +50,7 @@ const NewsInsights = () => {
             <div style={styles.eyebrow}>NEWS & INSIGHTS</div>
             <h2 style={styles.heading}>Stories from Our Work and Community</h2>
           </div>
-          <a href="#" style={styles.viewAll}>VIEW ALL ARTICLES →</a>
+          <a href="#news" style={styles.viewAll}>VIEW ALL ARTICLES →</a>
         </div>
 
         <div style={styles.grid} className="news-grid">
@@ -63,7 +63,7 @@ const NewsInsights = () => {
                 <div style={styles.category}>{article.category}</div>
                 <h3 style={styles.title}>{article.title}</h3>
                 <p style={styles.description}>{article.description}</p>
-                <a href="#" style={styles.readMore}>READ MORE →</a>
+                <a href="#news-article" style={styles.readMore}>READ MORE →</a>
               </div>
             </div>
           ))}

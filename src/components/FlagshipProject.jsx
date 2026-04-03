@@ -51,7 +51,7 @@ const FlagshipProject = () => {
               </div>
             </div>
 
-            <a href="#" style={styles.button}>READ THE FULL PROJECT →</a>
+            <a href="#programmes" style={styles.button}>READ THE FULL PROJECT →</a>
           </div>
 
           <div className="reveal" style={styles.imageContainer}>

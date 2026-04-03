@@ -74,7 +74,7 @@ const EnvironmentalStewardship = () => {
               <p style={styles.infoText}>
                 Our Islamic Convergence Table maps 7 Quranic concepts directly to 7 Paris Agreement articles — making the case that Islamic education is the most powerful climate action investment available to Bangladesh.
               </p>
-              <a href="#" style={styles.link}>DOWNLOAD CLIMATE PROPOSAL →</a>
+              <a href="#donate" style={styles.link}>DOWNLOAD CLIMATE PROPOSAL →</a>
             </div>
           </div>
         </div>

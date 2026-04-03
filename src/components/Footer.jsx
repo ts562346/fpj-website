@@ -58,8 +58,10 @@ function Footer() {
               {['f', 'in', '𝕏', 'li', '▶'].map((icon, idx) => (
                 <a 
                   key={idx}
-                  href="#" 
+                  href={['https://facebook.com', 'https://instagram.com', 'https://twitter.com', 'https://linkedin.com', 'https://youtube.com'][idx]} 
                   title={['Facebook', 'Instagram', 'Twitter/X', 'LinkedIn', 'YouTube'][idx]}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   style={{
                     width: '40px',
                     height: '40px',

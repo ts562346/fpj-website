@@ -72,7 +72,7 @@ const SixProgrammes = () => {
               <div style={styles.icon}>{programme.icon}</div>
               <h3 style={styles.cardTitle}>{programme.title}</h3>
               <p style={styles.cardDescription}>{programme.description}</p>
-              <a href="#" style={styles.link}>LEARN MORE →</a>
+              <a href="#programmes" style={styles.link}>LEARN MORE →</a>
             </div>
           ))}
         </div>

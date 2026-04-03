@@ -75,7 +75,7 @@ const TheoryOfChange = () => {
         </div>
 
         <div className="reveal" style={styles.buttonContainer}>
-          <a href="#" style={styles.button}>READ OUR FULL THEORY OF CHANGE →</a>
+          <a href="#theory" style={styles.button}>READ OUR FULL THEORY OF CHANGE →</a>
         </div>
       </div>
     </section>
